@@ -181,7 +181,7 @@ text-overflow: cover;
 overflow-wrap: break-word;
 background-image: url("../assets/quote-bg.png");
 background-repeat: no-repeat;
-background-position: top left;
+background-position: 1.899% 12%;
 }
 .yunus p{
 color: rgba(14, 14, 14, 0.8);
@@ -296,4 +296,102 @@ text-align: left;
 }
 .marginn{
   margin-bottom: 80px;
+}
+
+.donate > h2{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donate > p{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.wallet{
+  display: flex;
+  gap: 24px;
+  justify-content: space-evenly;
+
+}
+.color{
+  background-color: rgb(198, 228, 214)!important;
+}
+.wallet .money{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 240px;
+  height: 120px;
+  text-align: center;
+}
+.wallet .money h2{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+.wallet .money:hover {
+  background-color: rgb(198, 228, 214);
+  cursor: pointer;
+}
+
+input[type="text"] {
+  width: 1060px;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  margin-left: 45px;
+  margin-top: 36px;
+  margin-bottom: 32px;
+}
+
+input[type="text"]::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  /* color: #9e9e9e; */
+  text-align: center;
+}
+input[type="text"]:focus {
+  border-color: #575958;
+  background-color: #ffffff;
+}
+.donate-btn{
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  width: 151px;
+  height: 56px;
+  margin-top: 22px;
+  margin-left: 517px;
+  margin-bottom: 80px;
+}
+.donate-btn a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
 }
