@@ -1,208 +1,299 @@
 .work-sans-normal {
-    font-family: "Work Sans", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
-  body{
-    margin: 0 160px;
-    background-color: #e8e6e6;
-  }
-  /* header{
-    margin-right: 160px;
-    margin-left: 160px;
-  } */
-  nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  nav>h3{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  nav button{
-    margin-right: 30px;
-    width: 116px;
-    height: 52px;
-    background-color: rgb(247, 251, 250);
-    box-sizing: border-box;
-    border: 2px solid rgb(0, 106, 80);
-    border-radius: 8px;
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+margin: 0 148px;
+background-color: #e8e6e6;
+}
+/* header{
+margin-right: 160px;
+margin-left: 160px;
+} */
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav>h3{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: left;
+}
+nav button{
+margin-right: 30px;
+width: 116px;
+height: 52px;
+background-color: rgb(247, 251, 250);
+box-sizing: border-box;
+border: 2px solid rgb(0, 106, 80);
+border-radius: 8px;
 
-  }
-  nav button a{
-    text-decoration: none;
-    color: rgb(0, 106, 80);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-    text-align: left;
-    
-  }
-  .nav-body{
-    display: flex;
-    background-color: rgb(198, 228, 214);
-    border-radius: 10px;
-    max-width: 1069px;
-    height: 368px;
-    padding: 50px;
-    margin-top: 20px;
-    margin-bottom: 80px;
-  }
-  .nav-img img{
-    width: 468px;
-    height: 354px;
-  }
-  .first-part > .subtitle{
-    color: rgba(14, 14, 14, 0.5);
-    font-family: Fira Sans;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 25px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .first-part  .heading{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 62px;
-    letter-spacing: 0%;
-    text-align: left;
-    width: 618px;
-    height: 196px;
-  }
-  .first-part > button{
-    border-radius: 8px;
-    background: rgb(0, 106, 80);
-    width: 270px;
-    height: 56px;
-    border: none;
-  }
-  .first-part > button a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 22px;
-    letter-spacing: 0%;
-  }
-  
-  .vision > h2{
-    color: rgb(14, 14, 14);
-    font-family: Fira Sans;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .vision > p{
-    color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .vision-container{
-    display: flex;
-    gap: 24px;
-    margin-top: 32px;
-  }
-  .vision-box-size{
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgba(84, 144, 245, 0.2);
-    padding: 30px;
-  }
-  .vision-container .vision1{
-    background: rgba(84, 144, 245, 0.2);
-  }
-  .vision1 button{
-    border-radius: 8px;
-    background: rgb(84, 144, 245);
-  }
-  .vision-container .vision2{
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(198, 228, 214);
-  }
-  .vision2 button{
-    border-radius: 8px;
-    background: rgb(9, 161, 92);
-  }
-  .vision-container .vision3{
-    box-sizing: border-box;
-    border-radius: 16px;
-    background: rgb(247, 235, 207);
-  }
-  .vision3 button{
-    border-radius: 8px;
-    background: rgb(255, 194, 57);
-  }
-  .vision-container button{
-    border-radius: 8px;
-    width: 118px;
-    height: 38px;
-    color: #fefefe;
-    color: rgb(255, 255, 255);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 19px;
-    letter-spacing: 0%;
-    border: none;
-  }
-  .yunus{
-    height: 303px;
-    box-sizing: border-box;
-    border: 1px solid rgba(14, 14, 14, 0.15);
-    border-radius: 16px;
-    background: rgb(255, 255, 255);
-    padding: 40px 20px;
-    margin-top: 32px;
-    margin-bottom: 80px;
-    text-overflow: cover;
-    overflow-wrap: break-word;
-    background-image: url("../assets/quote-bg.png");
-    background-repeat: no-repeat;
-    background-position: top left;
-  }
-  .yunus p{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .yunus .title{
-    color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
-  .yunus .subtitle{
-    color: rgba(14, 14, 14, 0.6);
-    font-family: Fira Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0%;
-    text-align: left;
-  }
+}
+nav button a{
+text-decoration: none;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+}
+.nav-body{
+display: flex;
+background-color: rgb(198, 228, 214);
+border-radius: 10px;
+max-width: 1069px;
+height: 368px;
+padding: 50px;
+margin-top: 20px;
+margin-bottom: 80px;
+}
+.nav-img img{
+width: 468px;
+height: 354px;
+}
+.first-part > .subtitle{
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.first-part  .heading{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 52px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0%;
+text-align: left;
+width: 618px;
+height: 196px;
+}
+.first-part > button{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+width: 270px;
+height: 56px;
+border: none;
+}
+.first-part > button a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+}
+
+.vision > h2{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision > p{
+color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.vision-container{
+display: flex;
+gap: 24px;
+margin-top: 32px;
+}
+.vision-container button a{
+text-decoration: none;
+color: white;
+}
+.vision-box-size{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgba(84, 144, 245, 0.2);
+padding: 30px;
+}
+.vision-container .vision1{
+background: rgba(84, 144, 245, 0.2);
+}
+.vision1 button{
+border-radius: 8px;
+background: rgb(84, 144, 245);
+}
+.vision-container .vision2{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(198, 228, 214);
+}
+.vision2 button{
+border-radius: 8px;
+background: rgb(9, 161, 92);
+}
+.vision-container .vision3{
+box-sizing: border-box;
+border-radius: 16px;
+background: rgb(247, 235, 207);
+}
+.vision3 button{
+border-radius: 8px;
+background: rgb(255, 194, 57);
+}
+.vision-container button{
+border-radius: 8px;
+width: 118px;
+height: 38px;
+color: #fefefe;
+color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+border: none;
+}
+.yunus{
+height: 303px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px 20px;
+margin-top: 32px;
+margin-bottom: 80px;
+text-overflow: cover;
+overflow-wrap: break-word;
+background-image: url("../assets/quote-bg.png");
+background-repeat: no-repeat;
+background-position: top left;
+}
+.yunus p{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yunus .title{
+color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.yunus .subtitle{
+color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.news-card{
+width: 1090px;
+height: 306px;
+display: flex;
+border-radius: 24px;
+background: rgb(255, 255, 255);
+padding: 48px;
+margin-top: 32px;
+margin-bottom: 24px;
+}
+.news .news-title{
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news .news-description{
+  color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+.news-card .card-img{
+  border-radius: 24px;
+  background-image: url("../assets/satelite.png");
+  width: 923px;
+  height: 298px;
+  margin-right: 32px;
+}
+
+ .card-img2{
+  border-radius: 24px;
+  background-image: url("../assets/satelite.png");
+  width: 923px;
+  height: 298px;
+  margin-left: 32px;
+}
+.card-content .card-title{
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-content .TD{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+}
+.card-content .card-info{
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 12px;
+}
+.card-content .card-btn{
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  width: 139px;
+  height: 48px;
+  border: none;
+  margin-top: 32px;
+}
+.card-content .card-btn a{
+  text-decoration: none;
+  color: white;
+}
+.marginn{
+  margin-bottom: 80px;
+}
